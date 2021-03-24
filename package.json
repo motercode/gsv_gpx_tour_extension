@@ -1,0 +1,33 @@
+{
+  "name": "gsv_gpx_tour",
+  "version": "1.0.0",
+  "description": "a crhome extension to follow street view images along a gpx track",
+  "repository": "https://github.com/motercode/gsv_gpx_tour_extension.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "karma start karma.conf.js",
+    "webserver": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^5.2.0",
+    "jasmine": "^3.7.0",
+    "karma": "^6.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
